@@ -148,10 +148,6 @@ const App = () => {
     );
 };
 
-export default App;
-
-
-
 const Users = () => {
     const [usersList, setUsersList] = useState([]);
 
@@ -177,4 +173,5 @@ const Users = () => {
 };
 
 
+export default App;
 
