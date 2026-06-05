@@ -106,19 +106,19 @@ class CodeChecker:
                     f"TODO found on line {i}"
                 )
 
-    # def check_blank_lines(self, code):
-    #     blank = 0
+    def check_blank_lines(self, code):
+        blank = 0
 
-    #     for i, line in enumerate(code.splitlines(), 1):
-    #         if line.strip() == "":
-    #             blank += 1
-    #         else:
-    #             blank = 0
+        for i, line in enumerate(code.splitlines(), 1):
+            if line.strip() == "":
+                blank += 1
+            else:
+                blank = 0
 
-    #         if blank > 2:
-    #             self.feedback.append(
-    #                 f"Too many blank lines near line {i}"
-    #             )
+            if blank > 2:
+                self.feedback.append(
+                    f"Too many blank lines near line {i}"
+                )
 
     def get_feedback(self):
         return self.feedback
