@@ -137,3 +137,5 @@ class CodeChecker:
 # Minor update 5055
 
 # Minor update 1357
+
+# Minor update 3591
