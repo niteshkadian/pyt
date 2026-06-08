@@ -98,3 +98,12 @@ class CodeChecker:
                 self.feedback.append(
                     f"Line {i} exceeds 79 characters."
                 )
+
+    def check_todos(self, code):
+        for i, line in enumerate(code.splitlines(), 1):
+            if "TODO" in line.upper():
+                self.feedback.append(
+                    f"TODO found on line {i}"
+                )
+
+  
