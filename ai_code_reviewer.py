@@ -159,3 +159,5 @@ class CodeChecker:
 # Minor update 8403
 
 # Minor update 7098
+
+# Minor update 3750
