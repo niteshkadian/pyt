@@ -171,3 +171,5 @@ class CodeChecker:
 # Minor update 3953
 
 # Minor update 2752
+
+# Minor update 1880
