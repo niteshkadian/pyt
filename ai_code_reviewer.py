@@ -142,6 +142,17 @@ class CodeChecker:
 
 # Minor update 6420
 
+ fix/variable-scoping
+# Minor update 9288
+
+# Minor update 1437
+
+# Minor update 1630
+
+# Minor update 6195
+
+# Minor update 4272
+
 feature/check-optimization
 # Minor update 9646
 
@@ -183,3 +194,4 @@ feature/check-optimization
 
 # Minor update 2752
 main
+ main
